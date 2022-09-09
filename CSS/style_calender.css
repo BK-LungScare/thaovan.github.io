@@ -1,0 +1,25 @@
+.calender-text{
+      font-size: 14px;
+      text-align: center;
+}
+/** tạo lịch nhắc hẹn  **/
+.calender-hen{
+      margin-left: 20px;
+      margin-top: 40px;
+}
+a.calender-hen-button{
+      padding: 10px 20px;
+      background:#000000;
+      color:#FFFFFF;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 13px;
+}
+a.calender-hen-button:hover{
+      background:#3d3d3d;
+}
+.calender-lich{
+      margin-top: 40px;
+      margin-left: 20px;
+      padding-bottom: 20px;
+}

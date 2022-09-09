@@ -1,0 +1,50 @@
+body{ 
+      font-family: Arial; 
+      padding: 0px;
+      width:1500px; 
+      margin:auto;
+      background-color: rgb(236, 243, 249);
+}
+.Search {
+      position: absolute;
+      position:fixed;
+      background-color: rgb(255, 255, 255); 
+      margin-left: 220px; 
+      min-height: 50px; 
+      width: 1270px;
+      box-shadow: 1px 1px 1px rgb(195, 194, 196);
+}
+#menu { 
+      position:fixed;
+      background-color: rgb(255, 255, 255); 
+      width: 200px; 
+      float: left; 
+      min-height: 900px;
+}
+/* Main */
+.main{
+      float: right;
+      margin: 70px 10px 0px 0px;
+      width: 1270px;
+}
+.center{
+      float: left;
+      width: 900px;
+      padding-right: 20px;
+}
+.calender{
+      background-color: #FFFFFF;
+      float:left;
+      width: 350px;
+      border-radius: 20px;
+}
+/** để lúc lướt thì cái banner ko che cái thanh search**/
+.Search{ z-index: 2;}
+.banner{ z-index: 1;}
+.footer{
+      background-color: #d22cc7;
+      margin-right: 10px;
+      float: right;
+      height: 20px;
+      width: 1270px;
+}
